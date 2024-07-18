@@ -10,7 +10,7 @@ const NumberComponent: React.FC<NumberComponentProps> = ({
   scrollPosition,
 }) => {
   const variants1: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string, opacity?: number; left?: string; top?: string  };
   } = {
     0: { opacity: 0, color: "#ffffff", left: "-20%", top: "27%" },
     1: { scale: 1, top: "25%", left: "6%", opacity: 1, color: "#ffffff" },
@@ -18,7 +18,7 @@ const NumberComponent: React.FC<NumberComponentProps> = ({
     3: { opacity: 0, color: "#ffffff", left: "-20%", top: "25%" },
   };
   const variants2: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string, opacity?: number; left?: string; top?: string  };
   } = {
     0: { opacity: 0, color: "#B220E5", left: "-20%", top: "25%" },
     1: { opacity: 0, color: "#B220E5", left: "-20%", top: "25%" },
@@ -26,7 +26,7 @@ const NumberComponent: React.FC<NumberComponentProps> = ({
     3: { opacity: 0, color: "#B220E5", left: "-20%", top: "25%" },
   };
   const variants3: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string, opacity?: number; left?: string; top?: string  };
   } = {
     0: { opacity: 0, color: "#ffffff", left: "-20%", top: "25%" },
     1: { opacity: 0, color: "#ffffff", left: "-20%", top: "25%" },

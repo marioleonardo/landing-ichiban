@@ -11,7 +11,7 @@ const TextIchibanComponent: React.FC<TextIchibanComponentProps> = ({
   scrollPosition,
 }) => {
   const variants1: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string, opacity?: number; left?: string; top?: string  };
   } = {
     0: { color: "#B220E5" },
     1: { scale: 1, top: "4%", left: "6%", color: "#B220E5" },
@@ -20,7 +20,7 @@ const TextIchibanComponent: React.FC<TextIchibanComponentProps> = ({
   };
 
   const variants2: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string , opacity?: number; left?: string; top?: string };
   } = {
     0: { top: "-200%", color: "#ffffff" },
     1: { scale: 1, top: "-200%", left: "6%", color: "#ffffff" },
@@ -29,7 +29,7 @@ const TextIchibanComponent: React.FC<TextIchibanComponentProps> = ({
   };
 
   const variants3: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string, opacity?: number; left?: string; top?: string  };
   } = {
     0: { top: "-200%", color: "#B220E5" },
     1: { scale: 1, top: "-200%", left: "6%", color: "#B220E5" },

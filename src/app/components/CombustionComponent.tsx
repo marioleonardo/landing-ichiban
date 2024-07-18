@@ -10,7 +10,7 @@ const CombustionComponent: React.FC<CombustionComponentProps> = ({
   scrollPosition,
 }) => {
   const variants1: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string , opacity?: number; left?: string; top?: string };
   } = {
     0: { opacity: 0, color: "#ffffff", left: "-20%", top: "81%" },
     1: { scale: 1, top: "81%", left: "6%", opacity: 1, color: "#ffffff" },
@@ -18,7 +18,7 @@ const CombustionComponent: React.FC<CombustionComponentProps> = ({
     3: { opacity: 0, color: "#ffffff", left: "-20%", top: "81%" },
   };
   const variants2: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string, opacity?: number; left?: string; top?: string  };
   } = {
     0: { opacity: 0, color: "#B220E5", left: "-20%", top: "81%" },
     1: { opacity: 0, color: "#B220E5", left: "-20%", top: "81%" },
@@ -26,7 +26,7 @@ const CombustionComponent: React.FC<CombustionComponentProps> = ({
     3: { opacity: 0, color: "#B220E5", left: "-20%", top: "81%" },
   };
   const variants3: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string, opacity?: number; left?: string; top?: string  };
   } = {
     0: { opacity: 0, color: "#ffffff", left: "-20%", top: "81%" },
     1: { opacity: 0, color: "#ffffff", left: "-20%", top: "81%" },

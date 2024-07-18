@@ -8,15 +8,15 @@ interface CardComponentProps {
 
 const CardComponent: React.FC<CardComponentProps> = ({ scrollPosition }) => {
   const variants1: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string; opacity?: number; left?: string; top?: string };
   } = {
     0: { opacity: 0, color: "#ffffff", left: "82%", top: "100%" },
     1: { scale: 1, left: "82%", top: "28%", opacity: 1, color: "#ffffff" },
     2: { opacity: 0, color: "#ffffff", left: "82%", top: "0%" },
-    3: { opacity: 0, color: "#ffffff", right: "4%", top: "81%" },
+    3: { opacity: 0, color: "#ffffff",  top: "81%" },
   };
   const variants2: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string  ,opacity?: number; left?: string; top?: string };
   } = {
     0: { opacity: 0, color: "#ffffff", left: "82%", top: "100%" },
     1: { opacity: 0, color: "#ffffff", left: "82%", top: "100%" },
@@ -24,7 +24,7 @@ const CardComponent: React.FC<CardComponentProps> = ({ scrollPosition }) => {
     3: { opacity: 0, color: "#ffffff", left: "82%", top: "0%" },
   };
   const variants3: {
-    [key: number]: { scale?: number; y?: number; x?: string; color?: string };
+    [key: number]: { scale?: number; y?: number; x?: string; color?: string , opacity?: number; left?: string; top?: string };
   } = {
     0: { opacity: 0, color: "#ffffff", left: "82%", top: "100%" },
     1: { opacity: 0, color: "#ffffff", left: "82%", top: "100%" },
