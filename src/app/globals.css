@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+
+@font-face {
+  font-family: 'Nuku';
+  src: url('/nuku1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nuku {
+  font-family: 'Nuku', sans-serif;
+}
