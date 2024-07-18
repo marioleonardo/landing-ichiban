@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-export default function CustomNavbar({ scrollPosition }) {
+interface CustomNavbarProps {
+  scrollPosition: number;
+}
+
+export default function CustomNavbar({ scrollPosition }: CustomNavbarProps) {
   const variants: {
     [key: number]: { scale?: number; y?: number; x?: string; top?: string };
   } = {
